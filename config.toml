@@ -4,3 +4,6 @@ title = "chechannel.com"
 theme = "casper"
 enableEmoji = "true"
 enableRobotsTXT = "true"
+
+[permalinks]
+  post = "/:slug/"
