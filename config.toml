@@ -1,0 +1,16 @@
+baseURL = "https://chechannel.com/"
+languageCode = "ru-ru"
+title = "Che Channel"
+theme = "casper"
+enableEmoji = "true"
+enableRobotsTXT = "true"
+
+[permalinks]
+  post = "/:slug/"
+
+[params]
+  description = "Че Ченел: наши путевые заметки"
+  cover = "https://i.imgur.com/v8XmxYT.jpg"
+  logo = "https://i.imgur.com/nvAWNxH.png"
+  googleAnalyticsUserID = "UA-115874519-1"
+  email = "hello@chechannel.com"
