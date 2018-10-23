@@ -4,8 +4,16 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-  content/post:
-    default_front_matter_template: 81179d6f-f7fc-4297-88b4-d8b02ab6a97c
+- type: directory
+  path: content
+  label: Pages
+  create: all
+  match: "*"
+- type: directory
+  path: content/post
+  label: Post
+  create: all
+  match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: "/uploads"

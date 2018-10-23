@@ -1,4 +1,5 @@
 ---
+label: post
 hide_body: false
 is_partial: false
 fields:
@@ -47,3 +48,17 @@ fields:
   type: text
   hidden: false
   default: ''
+pages:
+- content/post/регистрация-машины-при-переезде-в-польшу-mienie-przesiedleńcze.md
+- content/post/play-nicnieprzepada.md
+- content/post/polish-immigrants-law-in-russian.md
+- content/post/how-to-enter-license-plate-number-in-poland.md
+- content/post/poland-meldunek-2017.md
+- content/post/carsharing-traficar-poland.md
+- content/post/platnaya-parkovka-polsha.md
+- content/post/cheap-transfer-money-from-russia.md
+- content/post/telegram-digest-june-17.md
+- content/post/global-blue-tax-free.md
+- content/post/kak-prodavat-na-avito.md
+- content/post/privet-my-v-lesu.md
+- content/post/how-to-car-journey-with-toddler.md
