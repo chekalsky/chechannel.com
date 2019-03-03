@@ -1,14 +1,16 @@
-baseURL = "https://chechannel.com/"
+baseURL = "https://chechannel.com"
 enableEmoji = "true"
 enableRobotsTXT = "true"
 languageCode = "ru-ru"
 theme = "casper"
 title = "Che Channel"
+
 [params]
 cover = "https://i.imgur.com/v8XmxYT.jpg"
 description = "Че Ченел: наши путевые заметки"
 email = "hello@chechannel.com"
-googleanalyticsuserid = "UA-115874519-1"
+googleAnalyticsUserID = "UA-115874519-1"
 logo = "https://i.imgur.com/nvAWNxH.png"
+
 [permalinks]
 post = "/:slug/"
