@@ -1,0 +1,60 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+}
+
+a {
+    color: #000000;
+    border-bottom: 2px solid #00000030;
+}
+
+a:hover {
+    border-bottom-color: #00000099;
+}
+
+section.page  {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section.head {
+    margin-top: 20px;
+}
+
+section.head > .logo {
+    text-align: left;
+    width: 64px;
+    line-height: 64px;
+    vertical-align: middle;
+    padding: 0;
+    font-size: 64px;
+    float: left;
+}
+
+section.head h1 {
+    font-weight: 900;
+}
+
+section.head h1, h2 {
+    padding: 0 0;
+    line-height: 1;
+}
+
+section.head > .headers {
+    float: left;
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+section.posts-list .list-item {
+    padding-bottom: 1em;
+}
+
+section.posts-list .list-item a > span.title {
+    display: inline;
+    padding: 0;
+}
+
+section.posts-list .list-item span.date     {
+    color: #767676;
+}

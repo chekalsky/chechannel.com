@@ -7,8 +7,7 @@ image = "https://leonardo.osnova.io/c09b3cff-b189-71b5-2b5f-90636f197478/"
 slug = "mienie-przesiedlencze"
 tags = ["Польша", "Регистрация машины в Польше", "Mienie przesiedleńcze"]
 title = "Регистрация машины при переезде в Польшу — Mienie przesiedleńcze"
-type = ""
-
+type = "post"
 +++
 Mienie przesiedleńcze (имущество переселенца) — процесс, позволяющий ввезти на территорию ЕС (в нашем случае в Польшу) имущество без уплаты акцизов и пошлин.
 

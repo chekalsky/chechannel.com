@@ -7,8 +7,7 @@ image = "https://i.imgur.com/WhceROH.jpg"
 slug = "poland-meldunek-2017"
 tags = ["Польша", "Вид на жительство в Польше", "Meldunek"]
 title = "Временная прописка (мельдунек) в Гданьске в 2017 году"
-type = ""
-
+type = "post"
 +++
 **Информация ниже неактуальна!**
 

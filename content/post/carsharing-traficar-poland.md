@@ -7,7 +7,7 @@ image = "https://leonardo.osnova.io/ab09d4c5-cfc2-47a4-3fd0-dd6100dd1d85/"
 slug = "carsharing-traficar-poland"
 tags = ["Польша", "carsharing"]
 title = "Каршеринг Traficar в Польше"
-
+type = "post"
 +++
 Каршеринг — это кратковременная аренда автомобиля для внутригородских (преимущественно) поездок. Оплата обычно начисляется за пройденные километры плюс за время аренды.
 

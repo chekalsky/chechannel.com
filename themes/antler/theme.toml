@@ -1,0 +1,17 @@
+name = "Antler"
+license = "MIT"
+licenselink = "https://github.com/chekalskiy/antler/blob/master/LICENSE"
+description = "Minimalistic AMP blog theme"
+homepage = "https://github.com/chekalskiy/antler"
+tags = ["blog", "amp", "minimalism"]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Ilya Chekalsky"
+  homepage = "https://chekalsky.com"
+
+[original]
+    name = "Kiss"
+    homepage = "https://themes.gohugo.io/theme/kiss/"
+    repo = "https://github.com/ribice/kiss"
