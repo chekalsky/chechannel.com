@@ -6,10 +6,6 @@
     {{ end }}
   </h1>
 
-
-
-
-
   {{ with .Description }}
     <p>{{ . }}</p>
   {{ end }}
@@ -34,10 +30,9 @@
     </section>
   {{ end }}
 
-
   {{ if eq .Params.type "post" }}
   <div class="suggestions">
-    <div class="flex one two-600">
+    <div class="flex grow one two-600">
 
       {{ with .NextInSection }}
       <div>
