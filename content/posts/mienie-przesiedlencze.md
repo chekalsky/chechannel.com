@@ -2,9 +2,9 @@
 author = "Илья Чекальский"
 date = "2018-10-28T20:00:00+01:00"
 description = "Сроки, условия и суммы — полный гайд, как перевезти свою машину в Польшу и не платить таможенные пошлины и акцизы."
-image = "https://leonardo.osnova.io/c09b3cff-b189-71b5-2b5f-90636f197478/"
+images = ["https://leonardo.osnova.io/c09b3cff-b189-71b5-2b5f-90636f197478/"]
 slug = "mienie-przesiedlencze"
-tags = ["Польша", "Регистрация машины в Польше", "Mienie przesiedleńcze"]
+tags = ["Польша", "регистрация машины в Польше", "mienie przesiedleńcze", "переезд с машиной"]
 title = "Регистрация машины при переезде в Польшу — Mienie przesiedleńcze"
 type = "post"
 +++

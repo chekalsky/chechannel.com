@@ -1,15 +1,15 @@
 {{ define "main" }}
 
     <h1>{{ .Title }}</h1>
-    <table class="table table-striped">
+
+    <section class="page">
+        <section class="posts-list">
         {{ range .Pages }}
-        <tr>
-            <td>{{ .Date.Format "2006-Jan-02" }}</td>
-            <td>
-                <a href="{{.Permalink}}">{{.Title}}</a>: {{ .Description }}
-            </td>
-        </tr>
+            <div class="list-item">
+                <a href="{{ .Permalink }}"><span class="title">{{ .Title }}{{ if .Draft }} ::Draft{{ end }}</span></a> <span class="date">{{ .Date.Format "02/01/06" }}</span>
+            </div>
         {{ end }}
-    </table>
+        </section>
+    </section>
 
 {{ end }}

@@ -2,9 +2,9 @@
 author = "Stasya Chekalskaya"
 date = "2017-07-20T20:52:16Z"
 description = "Я расскажу, как продала целую машину вещей за один месяц и получила за них больше денег, чем планировала."
-image = "https://i.imgur.com/Wm3y94i.jpg"
+images = ["https://i.imgur.com/Wm3y94i.jpg"]
 slug = "kak-prodavat-na-avito"
-tags = ["Авито"]
+tags = ["авито", "Россия"]
 title = "Как продавать вещи на Авито"
 type = "post"
 +++

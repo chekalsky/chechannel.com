@@ -3,7 +3,8 @@ author = "Илья Чекальский"
 date = "2017-11-21T22:15:00Z"
 description = ""
 slug = "how-to-enter-license-plate-number-in-poland"
-tags = ["Авто", "Польша", "Парковка в Польше"]
+images = ["https://leonardo.osnova.io/f354f299-2463-d3f2-2789-37ea66b43608/-/preview/1280/"]
+tags = ["авто", "Польша", "парковка в Польше"]
 title = "Как вводить номер автомобиля в приложении MobiParking для парковки"
 type = "post"
 +++

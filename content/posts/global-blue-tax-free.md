@@ -2,9 +2,9 @@
 author = "Илья Чекальский"
 date = "2017-03-18T17:00:00Z"
 description = "При возврате наличными вы получаете евро, а при возврате на карту компания Global Blue пересчитывает сумму по невыгодному курсу и возвращает деньги в рублях"
-image = "/images/2017/03/120426_GlobalBlueBnS-8687_M.jpg"
+images = ["/images/2017/03/120426_GlobalBlueBnS-8687_M.jpg"]
 slug = "global-blue-tax-free"
-tags = ["Tax Free"]
+tags = ["tax Free"]
 title = "Не соглашайтесь на возврат Tax Free на карту, берите наличные"
 type = "post"
 +++

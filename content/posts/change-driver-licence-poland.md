@@ -2,9 +2,9 @@
 author = "Илья Чекальский"
 date = "2019-02-19T00:00:00+01:00"
 description = "Как и когда поменять иностранные права на польские"
-image = "https://leonardo.osnova.io/586b728e-a220-b479-ec1f-a2f6ea41905f/"
+images = ["https://leonardo.osnova.io/586b728e-a220-b479-ec1f-a2f6ea41905f/"]
 slug = "change-driver-licence-poland"
-tags = ["Польша", "авто"]
+tags = ["Польша", "авто", "замена прав"]
 title = "Замена иностранного водительского удостоверения на польское"
 type = "post"
 +++

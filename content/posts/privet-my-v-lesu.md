@@ -2,9 +2,9 @@
 author = "Илья Чекальский"
 date = "2016-07-04T10:00:00Z"
 description = ""
-image = "https://gif.cmtt.space/3/club/2d/85/ce/6084f172abdbb1.jpg"
+images = ["https://gif.cmtt.space/3/club/2d/85/ce/6084f172abdbb1.jpg"]
 slug = "privet-my-v-lesu"
-tags = ["приветмывлесу", "Переезды", "Жизнь в доме"]
+tags = ["приветмывлесу", "переезды", "жизнь в в доме", "жизнь за городом", "Россия"]
 title = "#приветмывлесу: Как я полгода прожил в деревне и почему хочу вернуться туда обратно"
 type = "post"
 +++

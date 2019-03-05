@@ -2,9 +2,9 @@
 author = "Илья Чекальский"
 date = "2017-06-29T19:00:00Z"
 description = ""
-image = "https://i.imgur.com/vhTnafj.jpg"
+images = ["https://i.imgur.com/vhTnafj.jpg"]
 slug = "polish-immigrants-law-in-russian"
-tags = ["Польша", "Вид на жительство в Польше"]
+tags = ["Польша", "вид на жительство в Польше"]
 title = "Золотой документ для иммигрантов в Польше — все законы и основания для получения карты побыту на русском языке"
 type = "post"
 +++

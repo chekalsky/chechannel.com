@@ -1,23 +1,9 @@
 {{ define "main" }}
 <section class="page">
-    <section class="head">
-        <div class="logo">
-            🇵🇱
-        </div>
-        <div class="headers">
-            <h1>{{.Site.Title}}</h1>
-            <h2>{{.Site.Params.subtitle}}</h2>
-        </div>
-        <div style="clear: both;"></div>
-    </section>
-
-    <p>
-        Мы — 👩🏼Стася, 🧔🏻Илья и 👧🏼Ева, семья из трёх человек.<br>Переехали из 🇷🇺 Санкт-Петербурга в 🇵🇱 Гданьск. Ведём <a href="https://t.me/chechannel">канал о Польше</a> и нашем быте.
-    </p>
-
+    <br>
     <section class="posts-list">
-        <h3>Наши статьи:</h3>
-        {{ range sort .Pages }}
+        {{ $articles := where site.RegularPages.ByDate.Reverse "Type" "in" site.Params.sectionsOnIndex }}
+        {{ range sort $articles.ByDate.Reverse}}
             <div class="list-item">
                 <a href="{{ .Permalink }}"><span class="title">{{ .Title }}{{ if .Draft }} ::Draft{{ end }}</span></a> <span class="date">{{ .Date.Format "02/01/06" }}</span>
             </div>

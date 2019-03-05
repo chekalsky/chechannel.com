@@ -4,11 +4,21 @@ languageCode = "ru-ru"
 theme = "antler"
 title = "CheChannel"
 googleAnalytics = "UA-115874519-1"
+copyright = "© 2017-{year} CheChannel"
 
 [params]
-    subtitle = "наши путевые заметки"
-    email = "hello@chechannel.com"
-    logo = "https://i.imgur.com/nvAWNxH.png"
+  subtitle = "наши путевые заметки"
+  email = "hello@chechannel.com"
+  logo = "https://i.imgur.com/nvAWNxH.png"
+  sectionsOnIndex = ["post"]
 
 [permalinks]
-    posts = "/:slug/"
+  posts = "/:slug/"
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.1
+
+[taxonomies]
+  tag = "tags"

@@ -11,6 +11,10 @@ a:hover {
     border-bottom-color: #00000099;
 }
 
+a.no-border {
+    border: none;
+}
+
 main  {
     width: 90%;
     max-width: 900px;
@@ -21,7 +25,7 @@ section.head {
     margin-top: 20px;
 }
 
-section.head > .logo {
+section.head .logo {
     text-align: left;
     width: 64px;
     line-height: 64px;
@@ -40,7 +44,7 @@ section.head h1, h2 {
     line-height: 1;
 }
 
-section.head > .headers {
+section.head .headers {
     float: left;
     vertical-align: middle;
     margin-left: 20px;
@@ -77,4 +81,11 @@ main > .suggestions .fixed-height-container {
 
 main > .suggestions .fixed-height-container amp-img.cover img {
     object-fit: cover;
+}
+
+.goodbye {
+    text-align: center;
+    font-size: 60%;
+    padding: 10px 0;
+    margin-top: 10px;
 }

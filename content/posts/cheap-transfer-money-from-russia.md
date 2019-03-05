@@ -2,9 +2,9 @@
 author = "Илья Чекальский"
 date = "2017-06-30T08:00:00Z"
 description = ""
-image = "https://i.imgur.com/VU1BMhu.jpg"
+images = ["https://i.imgur.com/VU1BMhu.jpg"]
 slug = "cheap-transfer-money-from-russia"
-tags = ["Финансы за границей", "Как перевести деньги за границу"]
+tags = ["финансы за границей", "как перевести деньги за границу"]
 title = "Как перевести деньги из России в Европу и сэкономить на комиссии"
 type = "post"
 +++

@@ -2,7 +2,7 @@
 author = "Илья Чекальский"
 date = "2017-06-29T19:42:24Z"
 description = "Подписывайтесь на наш канал в Телеграме: @chechannel. Мы публикуем короткие истории и фотографии о нашей жизни в Польше."
-image = "https://i.imgur.com/kMC88XG.jpg"
+images = ["https://i.imgur.com/kMC88XG.jpg"]
 slug = "telegram-digest-june-17"
 tags = ["Польша"]
 title = "Телеграм-дайджест: апрель – июнь"
