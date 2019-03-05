@@ -15,6 +15,9 @@ copyright = "© 2017-{year} CheChannel"
 [permalinks]
   posts = "/:slug/"
 
+[params.opengraph.facebook]
+  appid = "305800963469106"
+
 [sitemap]
   changefreq = "daily"
   filename = "sitemap.xml"

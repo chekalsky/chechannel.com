@@ -31,6 +31,11 @@
     {{ end }}
 
     {{ template "_internal/opengraph.html" . }}
+
+    {{ with .Site.Params.opengraph.facebook.appid }}
+        <meta property="fb:app_id" content="{{.}}"/>
+    {{ end }}
+
     {{ template "_internal/twitter_cards.html" . }}
 
     {{ if .Site.Params.RSSLink }}
