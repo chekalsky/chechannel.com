@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "https://chechannel.netlify.com/*"
+  to = "https://chechannel.com/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/posts/"
+  to = "/"
+  status = 301
