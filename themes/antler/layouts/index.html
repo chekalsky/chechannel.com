@@ -1,5 +1,4 @@
-{{ partial "header" . }}
-
+{{ define "main" }}
 <section class="page">
     <section class="head">
         <div class="logo">
@@ -20,10 +19,9 @@
         <h3>Наши статьи:</h3>
         {{ range sort .Pages }}
             <div class="list-item">
-                <a href="{{ .Permalink }}"><span class="title">{{ .Title }}{{ if .Draft }} ::Draft{{ end }}</span></a> <span class="date">{{ .Date.Format "02.01.2006" }}</span>
+                <a href="{{ .Permalink }}"><span class="title">{{ .Title }}{{ if .Draft }} ::Draft{{ end }}</span></a> <span class="date">{{ .Date.Format "02/01/06" }}</span>
             </div>
         {{ end }}
     </section>
 </section>
-
-{{ partial "footer" . }}
+{{ end }}

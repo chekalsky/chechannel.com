@@ -1,6 +1,5 @@
 +++
 author = "Илья Чекальский"
-categories = ["приветмывлесу", "Переезды", "Жизнь в доме"]
 date = "2016-07-04T10:00:00Z"
 description = ""
 image = "https://gif.cmtt.space/3/club/2d/85/ce/6084f172abdbb1.jpg"

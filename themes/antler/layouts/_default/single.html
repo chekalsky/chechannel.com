@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+  <h1>
+    {{ .Title }}
+  </h1>
+
+  {{ .Date.Format "02/01/2006" }}
+
+  <ul>
+    {{  range.Params.tags }}
+    <li>
+      <a href="/tags/{{ . }}/">
+        {{ . }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+
+  <article>
+    {{ .Content }}
+  </article>
+
+
+<div class="suggestions">
+  <h3>Читать ещё:</h3>
+  <div class="flex one two-600">
+
+    {{ with .NextInSection }}
+    <div>
+      <a href="{{ .Permalink }}">
+          <div class="card">
+            {{ if .Params.image }}
+              <div class="fixed-height-container">
+                <amp-img class="cover" src="{{ .Params.image }}" width="160" height="90" layout="fill"></amp-img>
+              </div>
+            {{ end }}
+            <footer>
+              <h3>{{.Title}}</h3>
+            </footer>
+          </div>
+      </a>
+    </div>
+    {{ end }}
+
+    {{ with .PrevInSection }}
+    <div>
+      <a href="{{ .Permalink }}">
+        <div class="card">
+          {{ if .Params.image }}
+            <div class="fixed-height-container">
+              <amp-img class="cover" src="{{ .Params.image }}" width="160" height="90" layout="fill"></amp-img>
+            </div>
+          {{ end }}
+          <footer>
+            <h3>{{.Title}}</h3>
+          </footer>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+
+  </div>
+</div>
+
+{{ end }}

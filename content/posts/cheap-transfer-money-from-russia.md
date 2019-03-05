@@ -1,6 +1,5 @@
 +++
 author = "Илья Чекальский"
-categories = ["Финансы за границей", "Как перевести деньги за границу"]
 date = "2017-06-30T08:00:00Z"
 description = ""
 image = "https://i.imgur.com/VU1BMhu.jpg"

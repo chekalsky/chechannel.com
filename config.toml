@@ -1,5 +1,4 @@
-baseURL = "https://chechannel.com"
-enableEmoji = "true"
+baseURL = "https://chechannel.com/"
 enableRobotsTXT = "true"
 languageCode = "ru-ru"
 theme = "antler"
@@ -7,9 +6,9 @@ title = "CheChannel"
 googleAnalytics = "UA-115874519-1"
 
 [params]
-subtitle = "наши путевые заметки"
-email = "hello@chechannel.com"
-logo = "https://i.imgur.com/nvAWNxH.png"
+    subtitle = "наши путевые заметки"
+    email = "hello@chechannel.com"
+    logo = "https://i.imgur.com/nvAWNxH.png"
 
 [permalinks]
-post = "/:slug/"
+    posts = "/:slug/"

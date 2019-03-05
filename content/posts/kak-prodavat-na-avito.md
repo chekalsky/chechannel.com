@@ -1,6 +1,5 @@
 +++
 author = "Stasya Chekalskaya"
-categories = ["Авито"]
 date = "2017-07-20T20:52:16Z"
 description = "Я расскажу, как продала целую машину вещей за один месяц и получила за них больше денег, чем планировала."
 image = "https://i.imgur.com/Wm3y94i.jpg"

@@ -1,6 +1,5 @@
 +++
 author = "Илья Чекальский"
-categories = ["Авто", "Польша", "Парковка в Польше"]
 date = "2017-11-21T22:15:00Z"
 description = ""
 slug = "how-to-enter-license-plate-number-in-poland"

@@ -1,6 +1,5 @@
 +++
 author = "Stasya Chekalskaya"
-categories = ["Путешествия на машине", "Авто"]
 date = "2017-08-07T16:18:03Z"
 description = "Простые советы для родителей 🙌"
 image = "https://i.imgur.com/gbIFgvr.jpg"

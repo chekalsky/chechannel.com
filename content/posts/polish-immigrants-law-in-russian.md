@@ -1,6 +1,5 @@
 +++
 author = "Илья Чекальский"
-categories = ["Польша", "Вид на жительство в Польше"]
 date = "2017-06-29T19:00:00Z"
 description = ""
 image = "https://i.imgur.com/vhTnafj.jpg"
