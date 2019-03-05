@@ -1,16 +1,24 @@
-baseURL = "https://chechannel.com"
-enableEmoji = "true"
+baseURL = "https://chechannel.com/"
 enableRobotsTXT = "true"
 languageCode = "ru-ru"
-theme = "casper"
-title = "Che Channel"
+theme = "antler"
+title = "CheChannel"
+googleAnalytics = "UA-115874519-1"
+copyright = "© 2017-{year} CheChannel"
 
 [params]
-cover = "https://i.imgur.com/v8XmxYT.jpg"
-description = "Че Ченел: наши путевые заметки"
-email = "hello@chechannel.com"
-googleAnalyticsUserID = "UA-115874519-1"
-logo = "https://i.imgur.com/nvAWNxH.png"
+  subtitle = "наши путевые заметки"
+  email = "hello@chechannel.com"
+  sectionsOnIndex = ["post"]
+  description = "ЧеЧенэл: наши путевые заметки"
 
 [permalinks]
-post = "/:slug/"
+  posts = "/:slug/"
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.1
+
+[taxonomies]
+  tag = "tags"

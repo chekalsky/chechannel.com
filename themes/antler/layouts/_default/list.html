@@ -1,0 +1,15 @@
+{{ define "main" }}
+
+    <h1>{{ .Title }}</h1>
+
+    <section class="page">
+        <section class="posts-list">
+        {{ range .Pages }}
+            <div class="list-item">
+                <a href="{{ .Permalink }}"><span class="title">{{ .Title }}{{ if .Draft }} ::Draft{{ end }}</span></a> <span class="date">{{ .Date.Format "02/01/06" }}</span>
+            </div>
+        {{ end }}
+        </section>
+    </section>
+
+{{ end }}

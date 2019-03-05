@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+  <h1>{{ .Title }}</h1>
+
+  <ul>
+    {{ $data := .Data }}
+    {{ range $key, $value := .Data.Terms }}
+    <li><a href="/{{ $data.Plural }}/{{ $key | urlize }}">{{ $key }}</a> <span class="label">{{ len $value }} post{{ if gt (len $value) 1 }}s{{ end }}</span>
+    </li>
+    {{ end }}
+  </ul>
+
+{{ end }}

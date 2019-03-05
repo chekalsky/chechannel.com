@@ -1,0 +1,13 @@
+{{ define "main" }}
+<section class="page">
+    <br>
+    <section class="posts-list">
+        {{ $articles := where site.RegularPages.ByDate.Reverse "Type" "in" site.Params.sectionsOnIndex }}
+        {{ range sort $articles.ByDate.Reverse}}
+            <div class="list-item">
+                <a href="{{ .Permalink }}"><span class="title">{{ .Title }}{{ if .Draft }} ::Draft{{ end }}</span></a> <span class="date">{{ .Date.Format "02/01/06" }}</span>
+            </div>
+        {{ end }}
+    </section>
+</section>
+{{ end }}
