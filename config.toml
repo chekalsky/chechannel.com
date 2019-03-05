@@ -10,7 +10,7 @@ copyright = "© 2017-{year} CheChannel"
   subtitle = "наши путевые заметки"
   email = "hello@chechannel.com"
   sectionsOnIndex = ["post"]
-  description = "ЧеЧенэл: наши путевые заметки"
+  description = "Мы — Стася, Илья и Ева, семья из трёх человек. Переехали из Санкт-Петербурга в Гданьск. Ведём блог о Польше и нашем быте"
 
 [permalinks]
   posts = "/:slug/"
