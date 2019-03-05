@@ -1,0 +1,6 @@
+<amp-instagram
+    {{ with .Get "shortcode" }}data-shortcode="{{ . }}"{{ end }}
+    {{ with .Get "width" }}width="{{ . }}"{{ end }}
+    {{ with .Get "height" }}height="{{ . }}"{{ end }}
+    layout="{{ .Get "layout" | default "responsive" }}">
+</amp-instagram>

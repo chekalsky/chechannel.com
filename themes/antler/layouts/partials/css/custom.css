@@ -69,8 +69,16 @@ main > article figure {
     margin: 0;
 }
 
+main > article p:last-child {
+    margin-bottom: 0;
+}
+
+main > .tags {
+    margin: 10px 0;
+}
+
 main > .suggestions {
-    margin: 20px 0 0;
+    margin: 0 0;
 }
 
 main > .fixed-height-post-image {
@@ -91,7 +99,7 @@ amp-img.cover img {
 
 main h1.content-title {
     margin: 0;
-    padding: 0 0 10px;
+    padding: 5px 0 25px;
     line-height: 1.2;
 }
 

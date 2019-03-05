@@ -22,10 +22,18 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
 
+    {{ with .Params.ampModules }}
+        {{ range . }}
+            {{- if (index (index $.Site.Data "amp-modules") .) -}}
+                <script async custom-element="{{ . }}" src="{{ (index (index $.Site.Data "amp-modules") .) }}"></script>
+            {{- end }}
+        {{ end }}
+    {{ end }}
+
     {{ template "_internal/opengraph.html" . }}
     {{ template "_internal/twitter_cards.html" . }}
 
-    {{ if .Site.Params.RSSLink}}
+    {{ if .Site.Params.RSSLink }}
         <link href="{{.Site.Params.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{else}}
         {{ if ne .URL "/" }}
