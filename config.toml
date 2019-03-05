@@ -9,8 +9,8 @@ copyright = "© 2017-{year} CheChannel"
 [params]
   subtitle = "наши путевые заметки"
   email = "hello@chechannel.com"
-  logo = "https://i.imgur.com/nvAWNxH.png"
   sectionsOnIndex = ["post"]
+  description = "ЧеЧенэл: наши путевые заметки"
 
 [permalinks]
   posts = "/:slug/"
