@@ -1,3 +1,4 @@
 User-agent: *
+Allow: /
 
 Sitemap: {{ .Sitemap.Filename | default "sitemap.xml" | absURL }}
