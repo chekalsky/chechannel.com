@@ -5,7 +5,7 @@ description = "Подписывайтесь на наш канал в Телег
 images = ["https://i.imgur.com/kMC88XG.jpg"]
 slug = "telegram-digest-june-17"
 tags = ["Польша"]
-title = "Телеграм-дайджест: апрель – июнь"
+title = "Телеграм-дайджест: апрель – июнь 2017"
 type = "post"
 +++
 Подписывайтесь на наш канал в Телеграме: [@chechannel](https://t.me/chechannel). Мы публикуем короткие истории и фотографии о нашей жизни в Польше.
