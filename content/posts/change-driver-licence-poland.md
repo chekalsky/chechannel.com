@@ -2,7 +2,7 @@
 author = "Илья Чекальский"
 date = "2019-02-19T00:00:00+01:00"
 description = "Как и когда поменять иностранное водительское удостоверение на польское Prawo Jazdy"
-images = ["https://leonardo.osnova.io/586b728e-a220-b479-ec1f-a2f6ea41905f/"]
+images = ["https://leonardo.osnova.io/37c1799f-aaa2-5381-9c92-4534905ff921/"]
 slug = "change-driver-licence-poland"
 tags = ["Польша", "авто", "замена прав"]
 title = "Замена прав на польские"
